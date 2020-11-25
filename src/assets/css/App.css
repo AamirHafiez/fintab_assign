@@ -1,0 +1,57 @@
+/* ## Remove arrows from input type number */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Details */
+#details-container logo{
+    background-color: #d5effc;
+}
+
+.font-title-input{
+    font-size: 14px;
+    color: rgb(89, 86, 86);
+}
+
+.form-divs{
+    background-color: #F5F6F9;
+}
+
+#form-container input{
+    background-color: #F5F6F9;
+}
+
+.select-styles{
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+}
+
+.select-container{
+    border-right: 1px solid black;
+}
+
+#success-image{
+    animation-name: success;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes success{
+    from{
+        transform: scale(1.15);
+    }
+    to{
+        transform: scale(1);
+    }
+}
